@@ -1,6 +1,5 @@
 *.sketch
 *.fig
-design/
 *.xd
 
 # Avoid your project being littered with annoying .DS_Store files!
