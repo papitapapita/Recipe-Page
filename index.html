@@ -2,31 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">  
   <title>Frontend Mentor | Recipe page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  <main>
-    <img src="assets/images/image-omelette.jpeg" alt="AN omelette image">
-    <h1>Simple Omelette Recipe</h1>
-    <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
-    <section>
-      <h3>Preparation time</h3>
-      <ul>
-        <li> <strong>Total:</strong> Approximately 10 minutes</li>
-        <li>Preparation: 5 minutes</li>
-        <li>Cooking: 5 minutes</li>
-      </ul>
-    </section>
+  <main class="main">
+    <figure class="img-container">
+      <img src="assets/images/image-omelette.jpeg" alt="AN omelette image" class="main__img">
+    </figure>
+    <div class="main__description-container">
+      <h1 class="main__title">Simple Omelette Recipe</h1>
+      <p class="main__description">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+      <section class="time-card">
+        <h3 class="time-card__title">Preparation time</h3>
+        <ul class="time-card__list-container">
+          <li class="time-card__list-item"><strong class="time-card__subtitle">Total:</strong> Approximately 10 minutes</li>
+          <li class="time-card__list-item"><strong class="time-card__subtitle">Preparation:</strong> 5 minutes</li>
+          <li class="time-card__list-item"><strong class="time-card__subtitle">Cooking:</strong> 5 minutes</li>
+        </ul>
+      </section>
+    </div>
   </main>
   <section>
     <h2>Ingredients</h2>
