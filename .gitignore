@@ -4,3 +4,4 @@
 .DS_Store
 .prettierignore
 FRONTEND-MENTOR-README.md
+node_modules
