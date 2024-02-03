@@ -1,10 +1,86 @@
+:root{
+    --primary-color: hsl(14, 45%, 36%);
+    --secondary-color: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+}
+
+.separator{
+    height: -.09rem;
+    border: var(--light-grey) .1rem solid;
+    margin: 3.2rem 0;
+}
+
 .main__img{
     width: 100%;
+    margin-bottom: 4rem;
 }
+
+.body-container{
+    padding:0 3.2rem 4rem;
+    color: var(--wenge-brown);
+}
+
+.main__title{
+    color:var(--dark-charcoal);
+    font-size: 3.6rem;
+    margin-bottom: 2.4rem;
+    line-height: 1.15;
+}
+
+.time-card{
+    margin-top: 3.2rem;
+    padding: 2.4rem;
+    border-radius: 1.2rem;
+    background-color: var(--rose-white);
+}
+
+.time-card__title{
+    font-size: 2rem;
+    font-family: 'Outfit', sans-serif;
+    color: var(--secondary-color);
+}
+
+.time-card__list-container{
+    margin-bottom: 0;
+    padding-left: .8rem;
+}
+
+.time-card__list-item{
+    display: flex;
+    align-items: center;
+}
+
+.time-card__list-item::before{
+    content: "•";
+    font-size: 2.2rem;
+    padding-right: 3.2rem;
+    color: var(--secondary-color);
+}
+
+.time-card__list-item::marker{
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
 
 .attribution {
     font-size: 11px; text-align: center;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width:1440px){
+    
 }
